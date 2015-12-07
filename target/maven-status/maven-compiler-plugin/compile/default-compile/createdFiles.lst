@@ -1,0 +1,6 @@
+com/glosbe/spellchecker/SpellcheckerApplication.class
+com/glosbe/spellchecker/service/ISpellchecker.class
+com/glosbe/spellchecker/model/RemoteSpellcheckerQuery.class
+com/glosbe/spellchecker/service/SpellcheckerJnaLanguageToolsBased.class
+com/glosbe/spellchecker/model/SpellcheckResult.class
+com/glosbe/spellchecker/web/ApiController.class

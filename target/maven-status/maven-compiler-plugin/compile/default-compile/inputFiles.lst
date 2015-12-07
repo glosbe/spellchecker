@@ -1,0 +1,6 @@
+/home/pio/Projekty/workspace/workspace.372/Spellchecker/src/main/java/com/glosbe/spellchecker/service/ISpellchecker.java
+/home/pio/Projekty/workspace/workspace.372/Spellchecker/src/main/java/com/glosbe/spellchecker/service/SpellcheckerJnaLanguageToolsBased.java
+/home/pio/Projekty/workspace/workspace.372/Spellchecker/src/main/java/com/glosbe/spellchecker/model/SpellcheckResult.java
+/home/pio/Projekty/workspace/workspace.372/Spellchecker/src/main/java/com/glosbe/spellchecker/SpellcheckerApplication.java
+/home/pio/Projekty/workspace/workspace.372/Spellchecker/src/main/java/com/glosbe/spellchecker/model/RemoteSpellcheckerQuery.java
+/home/pio/Projekty/workspace/workspace.372/Spellchecker/src/main/java/com/glosbe/spellchecker/web/ApiController.java
