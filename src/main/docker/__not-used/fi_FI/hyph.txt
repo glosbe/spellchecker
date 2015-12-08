@@ -1,1 +1,0 @@
-fi,FI,hyph_fi_FI,Finnish (Finland),hyph_fi_FI.zip
