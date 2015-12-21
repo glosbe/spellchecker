@@ -1,5 +1,5 @@
 # -- custom port
-server.port=5612
+server.port: 5612
 # -- enable compression 
 #server.tomcat.compression=4096
 #server.tomcat.compressableMimeTypes=application/json,application/xml,text/html,text/plain
@@ -7,4 +7,4 @@ server.port=5612
 logging.level.com.glosbe: DEBUG
 
 
-spellchecker.hunspell.dir=/var/hunspell
+spellchecker.hunspell.dir: /var/hunspell
