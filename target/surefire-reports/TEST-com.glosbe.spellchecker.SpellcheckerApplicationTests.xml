@@ -38,11 +38,10 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="user.name" value="pio"/>
     <property name="java.class.path" value="/home/pio/software/apache-maven-3.3.3/boot/plexus-classworlds-2.5.2.jar"/>
-    <property name="pushImage" value="true"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean compile package docker:build -DpushImage"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean compile package docker:build"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="pl"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>

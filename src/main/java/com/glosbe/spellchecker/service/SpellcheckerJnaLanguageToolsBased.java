@@ -145,7 +145,11 @@ public class SpellcheckerJnaLanguageToolsBased implements ISpellchecker {
                     e.printStackTrace();
                 }
             }
-            return dictionary.suggest(word);
+            if (dictionary != null) {
+                return dictionary.suggest(word);
+            } else {
+                return Collections.emptyList();
+            }
         } catch (CharacterCodingException e) {
             e.printStackTrace();
             return Collections.emptyList();

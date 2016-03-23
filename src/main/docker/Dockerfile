@@ -5,9 +5,7 @@ MAINTAINER Glosbe Parfieniuk i Stawinski sp. j.
 ENV DEBIAN_FRONTEND noninteractive
 
 # web app
-EXPOSE 5612
-
-ADD hunspell /var/hunspell
+EXPOSE 7180
 
 ENV APP_JAR Spellchecker-0.0.1.jar
 
