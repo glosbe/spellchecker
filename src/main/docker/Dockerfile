@@ -7,6 +7,8 @@ ENV DEBIAN_FRONTEND noninteractive
 # web app
 EXPOSE 7180
 
+COPY hunspell /var/hunspell
+
 ENV APP_JAR Spellchecker-0.0.1.jar
 
 ADD ${APP_JAR} /tmp/

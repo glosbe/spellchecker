@@ -1,1 +1,2 @@
-mvn clean compile package docker:build -DpushImage
+mvn clean compile package docker:build 
+docker push glosbe/spellchecker
