@@ -1,4 +1,4 @@
-FROM java:8
+FROM tomcat:jre9
  
 MAINTAINER Glosbe Parfieniuk i Stawinski sp. j.
 

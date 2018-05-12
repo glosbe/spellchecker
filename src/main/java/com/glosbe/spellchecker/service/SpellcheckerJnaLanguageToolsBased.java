@@ -33,7 +33,7 @@ import com.google.common.base.CharMatcher;
 @Component("languageToolsSpellchecker")
 @Lazy
 public class SpellcheckerJnaLanguageToolsBased implements ISpellchecker {
-    private static final org.apache.log4j.Logger log = org.apache.log4j.Logger
+    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory
             .getLogger(SpellcheckerJnaLanguageToolsBased.class);
 
     private final Map<String, Hunspell.Dictionary> map;
