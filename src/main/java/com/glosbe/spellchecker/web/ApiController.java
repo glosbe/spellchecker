@@ -13,21 +13,26 @@ import com.glosbe.spellchecker.model.RemoteSpellcheckerQuery;
 import com.glosbe.spellchecker.model.SpellcheckResult;
 import com.glosbe.spellchecker.service.ISpellchecker;
 
+import io.micrometer.core.annotation.Timed;
+
 @RestController
 public class ApiController {
     @Autowired
     private ISpellchecker spellchecker;
 
+    @Timed
     @RequestMapping(value = "/spellcheck", method = RequestMethod.POST)
     public SpellcheckResult spellcheck(@RequestBody RemoteSpellcheckerQuery query) {
         return spellchecker.spellcheck(query);
     }
 
+    @Timed
     @RequestMapping(value = "/is-misspelled", method = RequestMethod.GET)
     public Boolean isMisspelled(@RequestParam String language, @RequestParam String word) {
         return spellchecker.misspelled(word, language);
     }
 
+    @Timed
     @RequestMapping(value = "/suggest", method = RequestMethod.GET)
     public List<String> suggest(@RequestParam String language, @RequestParam String word) {
         return spellchecker.suggest(word, language);
